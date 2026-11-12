@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "proof-carrying-data manifest (adata.uns['proof_carrying'])",
+  "description": "Declares, per confound class, the minimal auxiliary variable the dataset retains, so a verifier can refuse an un-certifiable test. See docs/theory/verification_completeness_theorem.md.",
+  "type": "object",
+  "properties": {
+    "unit_col": {"type": ["string", "null"], "description": "obs column with donor/subject/unit id (class U)"},
+    "batch_col": {"type": ["string", "null"], "description": "obs column with processing-run/batch indicator (class B)"},
+    "selection_col": {"type": ["string", "null"], "description": "obs column recording the selection/ascertainment mechanism (recruitment, admission, QC-retention) (class S)"},
+    "nco": {
+      "type": "array",
+      "description": "Declared co-selected negative-control outcomes (class S).",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {"type": "string"},
+          "obs_col": {"type": "string"},
+          "co_selected": {"type": "boolean", "description": "True iff it passed through the SAME selection channel as the claimed outcome (the relevance condition; an independent control cannot certify)."},
+          "rationale": {"type": "string"}
+        },
+        "required": ["name", "obs_col"]
+      }
+    },
+    "demographics": {"type": "array", "items": {"type": "string"}, "description": "covariate-shift variables age/sex/ancestry (class D)"},
+    "verification_completeness": {
+      "type": "object",
+      "description": "Per-class score 0 foreclosed / 1 conditional / 2 guaranteed (computed).",
+      "properties": {"S": {"type": "integer"}, "B": {"type": "integer"}, "U": {"type": "integer"}, "D": {"type": "integer"}}
+    },
+    "s_certifiable": {"type": "boolean", "description": "Is a selection-collider certificate DEFINED for this dataset? (a co-selected NCO is retained)"},
+    "notes": {"type": "string"}
+  }
+}

@@ -1,0 +1,23 @@
+ACADEMIC RESEARCH AND NON-COMMERCIAL LICENSE WITH EXPLICIT PATENT RESERVATION
+
+Copyright (c) 2026 Precision Medicine Computational Lab, The SJTU-Ruijin-UIH Institute for Medical Imaging Technology, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine. All rights reserved.
+
+1. ACADEMIC AND PEER-REVIEW USE PERMITTED
+Permission is hereby granted, free of charge, to academic researchers, peer reviewers, editors, and non-profit educational or research institutions ("Academic Users") to download, view, copy, execute, and modify this software and its associated documentation files (the "Software") solely for non-commercial scientific research, academic teaching, and editorial or peer-review verification.
+
+2. COMMERCIAL USE STRICTLY PROHIBITED
+Any commercial use of the Software—including but not limited to embedding or integrating the Software into commercial software, cloud services (SaaS/PaaS), clinical or pharmaceutical data platforms, commercial autonomous AI agent pipelines, fee-for-service analytics, or commercial model training/evaluation—is strictly prohibited without a prior written commercial license agreement from the Copyright Holders.
+
+3. EXPLICIT RESERVATION OF PATENT AND INTELLECTUAL PROPERTY RIGHTS (NO PATENT LICENSE)
+Aspects of the methods, algorithms, statistical verification certificates, and proof-carrying-data manifest architectures implemented in the Software are the subject of pending patent applications (including Chinese Patent Application(s) filed with CNIPA and international PCT priority filings).
+Nothing in this License shall be construed as granting—by implication, estoppel, exhaustion, or otherwise—any license, covenant not to sue, or right to practice under any patent, patent application, trade secret, or trademark of the Authors, Ruijin Hospital, or Shanghai Jiao Tong University School of Medicine. All patent rights are expressly and exclusively reserved.
+
+4. REDISTRIBUTION CONDITIONS
+Academic Users may redistribute unmodified or modified copies of the Software solely to other Academic Users for non-commercial research purposes, provided that this entire License and Patent Reservation notice is retained prominently in all copies and derivative works.
+
+5. DISCLAIMER OF WARRANTY AND LIMITATION OF LIABILITY
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+For commercial licensing or patent inquiries, please contact:
+Prof. Ning Wen (wn12479@rjh.com.cn)
+Precision Medicine Computational Lab, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine

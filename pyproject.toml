@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "proofcarry"
+version = "0.2.0"
+description = "Class-matched external certificates for scientific claims, and the proof-carrying-data manifest they consume"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [{ name = "Precision Medicine Computational Lab, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine" }]
+dependencies = ["numpy>=1.21", "scipy>=1.7"]
+
+[project.optional-dependencies]
+anndata = ["anndata>=0.8"]
+
+[project.scripts]
+proofcarry = "proofcarry.cli:main"
+
+[tool.setuptools]
+packages = ["proofcarry"]
+package-data = { "proofcarry" = ["schema.json"] }
